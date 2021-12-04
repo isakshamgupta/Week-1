@@ -12,34 +12,50 @@
 
 <body>
     <header style="background-image: url('images/homepage-banner.jpg');">
-
-        <div class="mydiv">
+<!--
+        <div class="nav-div">
             <div class="left-nav">
                 <div class="logo">
                     <img src="images/Logo.png" alt="logo" width="200">
                 </div>
                 <div class="search">
-                    <input type="text" placeholder="Search Destinations,Tour and Activities">
-                    <i class="fa fa-search"></i>
+                    <input type="text" class="search-input" placeholder="Search Destinations,Tour and Activities">
                 </div>
             </div>
             <div class="nav-right">
                 <a href="#" class="nav-btn">Gifts on Experience</a>
                 <a href="#" class="nav-btn">Log In</a>
             </div>
+        </div> 
+    -->
+    <div class="nav-div">
+        
+            <img src="images/Logo.png" alt="logo" width="175" height="100" >
+        
+        <div class="search">
+            <i class="fa fa-search"></i>
+            <input type="text" class="search-input" placeholder="  Search Destinations,Tour and Activities">
         </div>
-        <hr>
-        <h1>It's time for new </h1>
+        <div class="nav-right">
+            
+            <a href="#" class="nav-link"> <i class="fa fa-gift fa-4x" aria-hidden="true"></i> Gifts on Experience</a>
+            <a href="#" class="nav-link">Log In</a>
+        </div>
+    </div>
+        
+        <div class="solid-text">
+            It's time for new
+        </div>
         <div id="marq">
-            <marquee direction="up" width="300" height="200">
+            <marquee direction="up" class="moving-text">
                 <h1>Adventures</h1>
-                <br><br><br><br>
+
                 <h1>Escapes</h1>
-                <br><br><br><br>
+
                 <h1>Thrill</h1>
-                <br><br><br><br>
+
                 <h1>Experiences</h1>
-                <br><br><br><br>
+
             </marquee>
         </div>
 
@@ -51,23 +67,24 @@
             <a href="#" class="nav-mid">Staycations</a>
         </nav>
         <br>
-        <form class="example" id="form">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit">search</button>
+        <form id="form">
+            <input type="text" class="form-input" placeholder="    Search Destinations, Tours and Activities" name="search">
+            <button type="submit" class="submit-btn">Search</button>
         </form>
-        <br><br><br><br><br><br><br><br>
-        <div id="btn">
+        <br><br><br>
 
-            <button>24,000+ Travel Experiences</button>
-            <button>55+ Countries</button>
-            <button>Best Price Guaranteed</button>
-            <button>84+ Millions Users per yer</button>
+        <div class="vis-btn">
+            <div class="vis-btn1">24,000+ Travel Experiences</div>
+            <div class="vis-btn2">55+ Countries</div>
+            <div class="vis-btn3">Best Price Guaranteed</div>
+            <div class="vis-btn4">84+ Millions Users per yer</div>
         </div>
-
-
 
     </header>
     <footer>
+        <div class="footer-logo">
+            <img src="images/Logo.png" alt="logo" width="200">
+        </div>
         <div class="icons">
             <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-instagram"></a>
