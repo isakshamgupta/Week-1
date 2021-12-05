@@ -71,3 +71,8 @@ https://developer.mozilla.org/en-US/docs/Learn/CSS
 https://web.dev/learn/css/
 
 P.S. If you are well versed in CSS then please also try to go through SASS/SCSS. Refer https://sass-lang.com/
+<hr>
+<b><h1>Progress Screenshots</h1></b>
+<img src="images/sc-1.png" alt="sc1">
+<hr>
+<img src="images/sc-2.png" alt="sc2">
