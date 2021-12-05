@@ -11,7 +11,7 @@ body {
     font-family: sans-serif;
     font-weight: bold;
     height: 50px;
-    margin-top: 100px;
+    margin-top: 90px;
 
 }
 
@@ -38,11 +38,11 @@ body {
 .nav-mid {
     background-color: rgb(77, 74, 74);
     color: white;
-    padding: 0px 20px;
+    padding: 0px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 0.5rem;
+    border-radius: 0.6rem;
 }
 
 .nav-mid:hover {
@@ -97,9 +97,10 @@ body {
     width: 80px;
 }
 
-.nav-mid i{
-    padding:-8px;
+.nav-mid i {
+    padding: -8px;
 }
+
 #marq {
     text-align: center;
     height: 160px;
@@ -253,7 +254,11 @@ input {
     opacity: 0.8;
 }
 
-.form-input ::placeholder{
+.form-input ::placeholder {
     font-weight: 700;
     color: rgb(58, 57, 57);
+}
+
+.bottom-text {
+    font-family: sans-serif;
 }
