@@ -93,7 +93,7 @@ input {
     text-decoration: none;
     margin: 20px 10px;
     margin-bottom: 12px;
-    border-radius: 100%;
+    border-radius: 40px;
 }
 
 .fa:hover {
