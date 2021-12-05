@@ -3,7 +3,6 @@ body {
     margin: 0% auto;
 }
 
-
 .solid-text {
     color: #ffffff;
     text-align: center;
@@ -24,26 +23,15 @@ body {
 
 }
 
-/*
-.nav-btn {
-    background-color: rgb(77, 74, 74);
-    color: white;
-    padding: 12px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 0.5rem;
-}
-*/
 .nav-mid {
     background-color: rgb(77, 74, 74);
     color: white;
-    padding: 0px 15px;
-    padding-right: 30px;
+    padding: 20px 30px 20px 10px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     border-radius: 0.5rem;
+    justify-content: center;
     height: 60px;
 }
 
@@ -61,16 +49,16 @@ body {
 }
 
 #form {
-    text-align: center;
     height: 150px;
     border-radius: 50%;
     font-weight: bolder;
+    margin-left: 320px;
 }
 
 .form-input {
     border-radius: 8px;
     height: 40px;
-
+    width: 850px;
 }
 
 .search-input {
@@ -89,21 +77,13 @@ body {
     margin: 0%;
 }
 
-/*
-.search {
-    margin-left: 20px;
-    width: 300px;
-    height: 120px;
-    border-radius: 20px;
-}
-*/
+
 input {
     width: 50%;
     height: 20%;
 
     color: black;
 }
-
 
 .fa {
     padding: 8px;
@@ -168,6 +148,7 @@ input {
     width: 100px;
     height: 45px;
     border-radius: 8px;
+    background-color: white;
 }
 
 .vis-btn {
@@ -179,16 +160,21 @@ input {
     color: rgb(194, 180, 180);
     font-size: 20px;
     padding-bottom: 25px;
+    font-family: sans-serif;
 }
-.vis-btn1,.vis-btn2,.vis-btn3,.vis-btn4{
-    padding-top: 25px;
+
+.vis-btn1, .vis-btn2, .vis-btn3, .vis-btn4 {
+    padding-top: 15px;
+
 }
-.btn1-main,.btn2-main,.btn3-main,.btn4-main{
+
+.btn1-main, .btn2-main, .btn3-main, .btn4-main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.btn1-main:hover{
+
+.btn1-main:hover {
     color: white;
 }
 
