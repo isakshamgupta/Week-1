@@ -306,23 +306,40 @@ input {
 }
 
 .row1img1 {
+    position: relative;
     padding-bottom: 14px;
 }
 
 .row1img2 {
+    position: relative;
     padding-bottom: 14px;
 }
 
+.row1img3 {
+    position: relative;
+}
+
 .row2img1 {
+    position: relative;
     padding-bottom: 14px;
 }
 
 .row2img2 {
+    position: relative;
     padding-bottom: 14px;
 }
 
+.row2img3 {
+    position: relative;
+}
+
 .row3img1 {
+    position: relative;
     padding-bottom: 14px;
+}
+
+.row3img2 {
+    position: relative;
 }
 
 .row3-btn {
@@ -344,4 +361,155 @@ input {
 .row3-btn button:hover {
     background-color: white;
     color: orangered;
+}
+
+.main1x-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 8%;
+    font-size: 41px;
+    color: white;
+    font-weight: 700
+}
+
+.main1x-text2 {
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 25%;
+    margin-left: 8%;
+    font-size: 197px;
+    color: #fecf24;
+    font-weight: 700
+}
+
+.main1x-text3 {
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 30%;
+    margin-left: 43%;
+    font-size: 90px;
+    color: #fecf24;
+    font-weight: 700
+}
+
+.main1x-text4 {
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 45%;
+    margin-left: 43%;
+    font-size: 45px;
+    color: #fecf24;
+    font-weight: 700
+}
+
+.main1x-text5 {
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 64%;
+    margin-left: 8%;
+    font-size: 25px;
+    color: white;
+    font-weight: 700
+}
+
+.main1xbtn1 {
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 60%;
+    width: 180px;
+    font-size: 24px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    background-color: #fecf24;
+    font-weight: bolder;
+}
+
+.main1x {
+    position: relative;
+}
+
+.row1img1-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 90%;
+    margin-left: 22%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.row1img2-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 55%;
+    margin-left: 32%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.row1img3-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 55%;
+    margin-left: 35%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.row2img1-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 65%;
+    margin-left: 30%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.row2img2-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 70%;
+    margin-left: 22%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.row2img3-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 55%;
+    margin-left: 22%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.row3img1-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 85%;
+    margin-left: 19%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.row3img2-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 95%;
+    margin-left: 22%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
 }
