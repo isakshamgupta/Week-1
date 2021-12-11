@@ -76,3 +76,5 @@ P.S. If you are well versed in CSS then please also try to go through SASS/SCSS.
 <img src="images/sc-1.png" alt="sc1">
 <hr>
 <img src="images/sc-2.png" alt="sc2">
+<hr>
+<img src="images/sc-3.png" alt="sc3">
